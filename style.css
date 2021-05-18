@@ -3,3 +3,63 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+
+/* carousel */
+.carousel-item {
+  background-size: cover;
+  height: 400px;
+  text-align: center;
+}
+
+.carousel-item.item1 {
+  background-image: url('images/guitar.jpg');
+  background-position: left center;
+}
+
+.carousel-item.item2 {
+  background-image: url('images/makeup.jpg');
+  background-position: center top;
+}
+
+.carousel-item.item3 {
+  background-image: url('images/cooking.jpg');
+  background-position: center;
+}
+
+.helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.intro {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.intro h2{
+  font-size: 32px;
+  font-weight: 300;
+  color: white;
+  margin-bottom: 18px;
+}
+
+.intro h3 {
+  font-size: 22px;
+  font-weight: 300;
+  color: white;
+  margin-bottom: 48px;
+}
+
+.intro a {
+  background-color: #5900E7;
+  padding: 10px 30px;
+  font-size: 16px;
+  border-radius: 2px;
+  color: white;
+}
+
+.intro a:hover {
+  text-decoration: none;
+}
