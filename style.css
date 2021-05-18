@@ -63,3 +63,40 @@
 .intro a:hover {
   text-decoration: none;
 }
+
+
+/* main */
+.container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.course {
+  display: block;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.15);
+  margin-bottom: 20px;
+}
+
+.course:hover {
+  text-decoration: none;
+}
+
+.course .info {
+  padding: 10px;
+}
+
+.course .info h4 {
+  font-size: 18px;
+  color: #4A4A4A;
+  margin-bottom: 10px;
+}
+
+.course .info .lecturer {
+  font-size: 13px;
+  color: #4A4A4A;
+}
+
+.course .info .lecturer img,
+.course .info .lecturer .name {
+  vertical-align: middle;
+}
